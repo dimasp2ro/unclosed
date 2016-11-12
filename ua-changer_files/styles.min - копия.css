@@ -1,0 +1,29 @@
+.icon-add,.icon-chrome,.icon-free{background-image:url(../images/icons_set.png)}#modal .step2>div,.footer2,.main{text-align:center}.icon-add{background-position:0 -39px;width:37px;height:37px}.icon-chrome{background-position:-37px -39px;width:22px;height:22px}.icon-free{background-position:-76px 0;width:37px;height:38px}.icon-improve,.icon-language{background-image:url(../images/icons_set.png);width:38px}.icon-improve{background-position:0 0;height:39px}.icon-language{background-position:-38px 0;height:38px}.footer,.footer1,.main,body{width:100%}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;color:#fff;font-family:'Open Sans',sans-serif;min-height:600px;min-width:450px}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}.clearfix{clear:both}.icon{display:inline-block;vertical-align:middle}:focus{outline:0}.main{min-height:400px;display:table;position:relative}.main .buttons{position:absolute;width:100%;display:table;bottom:20%}.main .btnmain{font:30px/78px 'Open Sans',sans-serif;color:#fff;text-decoration:none;padding:0 50px;display:table;margin:0 auto;background:#2a9e1e;border-bottom:4px solid #217618;border-radius:40px;text-shadow:2px 2px rgba(0,0,0,.25);position:relative;box-shadow:0 5px 15px rgba(98,10,32,.25)}.main .btnmain .icon{margin-right:10px;vertical-align:middle}.main .btnmain:before{content:url(../images/arrow-left.gif);position:absolute;left:-235px;top:15px}.main .btnmain:after{content:url(../images/arrow-right.gif);position:absolute;right:-235px;top:15px}.main .store{background:#dee1e4;font:12px/29px 'Open Sans',sans-serif;border-radius:15px;display:table;margin:20px auto 0;color:#5b5b5b;padding:0 20px;text-decoration:none}.main .store .icon{margin-right:10px;vertical-align:middle;position:relative;top:-2px}.main .store:before{display:block;content:''}.footer1{background:#596976;padding:30px 0}.footer1 .wrapper{display:table;margin:0 auto}.footer1 .wrapper>div{float:left;padding-left:100px;position:relative}.footer1 .wrapper>div>div:first-child{width:74px;height:74px;border-radius:37px;background:#3d4851;text-align:center;line-height:74px;float:left}.footer1 .wrapper>div>div:first-child .icon{display:inline-block;vertical-align:middle;position:relative;top:-2px}.footer1 .wrapper>div>div:last-child{float:right;font:18px/21px 'Open Sans',sans-serif;color:#fff;padding:15px 0 0 15px}.footer1 .wrapper>div>div:last-child span{display:block}.footer2{background:#3d4851;padding:20px;display:table;width:100%;box-sizing:border-box}.footer2 ul{display:table;margin:0 auto}.footer2 ul li{float:left}.footer2 ul li a{font:12px/27px 'Open Sans',sans-serif;color:#fff;text-decoration:none;border-radius:14px;padding:0 20px;border:1px solid #596976;display:inline-block}.footer2 ul li:not(:first-child){margin-left:5px}#modal{position:absolute;left:50%}#modal .step2{display:table;margin:15px auto 0;width:275px;position:relative}#modal .step2 div:first-child{background:#d9d8b9;padding:5px 0;border-radius:10px 10px 0 0}#modal .step2 div:last-child{background:#fffcaf;border-radius:0 0 10px 10px;padding:15px 0;font:14px/20px 'Open Sans',sans-serif;color:#000}#modal .step2 button{font:12px/29px 'Open Sans',sans-serif;color:#000;border-radius:0;padding:0 15px}#modal .step2:before{content:url(../images/modal_before.png);position:absolute;top:-14px;left:50%;margin-left:-7px}.jqmWindow{z-index:20;position:fixed;top:100px!important}@media and (max-width:450px){.footer2 ul li{float:none}.footer2 ul li a{display:block;margin-bottom:5px}}
+
+.jqmWindow {
+    
+    
+    // position: fixed;
+    // top: 17%;
+    // left: 50%;
+    
+    // margin-left: -300px;
+    // width: 600px;
+    
+    // background-color: #EEE;
+    // color: #333;
+    // border: 1px solid black;
+    // padding: 12px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     // position: absolute;
+     // top: expression( 200 + (document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+     position: fixed;
+     top: 100px !important;
+}
